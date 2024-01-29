@@ -6,9 +6,13 @@
 
 
 **-Suma**
+
       def sumacomplejo(a,b):
+      
       real = a[0]+b[0]
+      
       img = a[1]+b[1]
+      
       return real,img
 
       este es un ejemplo de como se manejan las funciones en phyton
