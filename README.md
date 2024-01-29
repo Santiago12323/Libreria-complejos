@@ -1,3 +1,8 @@
+**libreia de complejos CYNT**
+**Calculadora**
+**Santiago Coronado Pinzon**
+
+
 **-Suma**
       def sumacomplejo(a,b):
       real = a[0]+b[0]
