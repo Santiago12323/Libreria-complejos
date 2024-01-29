@@ -22,15 +22,21 @@ def restacomplejos(a,b):
     img = a[1]-b[1]
     return real,img
 
-def divicioncomplejos(a,b):
+def divicioncomplejos(a, b):
     # Division de numeros complejos
     try:
         div = b[0] ** 2 + b[1] ** 2
         real = (a[0] * b[0] + a[1] * b[1]) / div
         img = (a[1] * b[0] - a[0] * b[1]) / div
-        return (real, img)
+        return real, img
     except:
         return 'Imposible hacer la division.'
+
+def polar_cartiaciono(c):
+    # Conversion de polar a cartesiano
+    real = round(c[0] * math.cos(math.radians(c[1])), 2)
+    img = round(c[0] * math.sin(math.radians(c[1])), 2)
+    return real, img
 
 
 def modulocomplejos(c):
